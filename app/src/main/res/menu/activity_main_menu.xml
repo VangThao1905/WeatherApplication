@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="@string/my_account"
+        app:showAsAction="collapseActionView"
+        android:id="@+id/menuMyAccount"/>
+    <item android:title="@string/see_weather_by_place"
+        app:showAsAction="collapseActionView"
+        android:id="@+id/menuSeeWeatherByPlace"/>
+    <item android:title="@string/place_management"
+        app:showAsAction="collapseActionView"
+        android:id="@+id/menuPlacesManagement"/>
+</menu>

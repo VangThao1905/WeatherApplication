@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/teal_200"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_nav_head"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_account"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txtHi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_nav_head"
+        android:layout_margin="8dp"
+        android:text="@string/hi"
+        android:textColor="#040404"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtHi"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/no_email"
+        android:textColor="#F44336" />
+    <Button
+        android:id="@+id/btnLogout"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/logout"
+        android:layout_below="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

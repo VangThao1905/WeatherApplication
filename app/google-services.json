@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "820066023317",
+    "firebase_url": "https://weatherapplication-d1720-default-rtdb.firebaseio.com",
+    "project_id": "weatherapplication-d1720",
+    "storage_bucket": "weatherapplication-d1720.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820066023317:android:78755af6ed0a0512c8289c",
+        "android_client_info": {
+          "package_name": "vangthao.app.weatherapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820066023317-9rvqlhj27l6d8tteepm2mqftjb1kh4f1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJivftt2DtN9BbR2hqvlGswHwnV5RjIak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "820066023317-9rvqlhj27l6d8tteepm2mqftjb1kh4f1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="weather"
+            type="vangthao.app.weatherapplication.model.weatherdata.WeatherResponse" />
+
+    </data>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background_cloud"
+            android:orientation="vertical"
+            tools:context=".HomeActivity">
+
+            <ImageView
+                android:id="@+id/imagWeatherType"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/padding_between_compoents"
+                android:contentDescription="@string/todo"
+                android:scaleType="fitXY" />
+
+
+            <TextView
+                android:id="@+id/txtTemperature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imagWeatherType"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:text="@{weather.main.temp.toString()+`°C`}"
+                android:textColor="#F44336"
+                android:textSize="42sp" />
+
+            <TextView
+                android:id="@+id/txtWeatherMain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtTemperature"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:text="@{weather.weather[0].main}"
+                android:textColor="#3F51B5"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtMaxTemperature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtWeatherMain"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:text="@{`Max temperature: `+weather.main.tempMax.toString()+`°C`}"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txtMinTemperature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtMaxTemperature"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:text="@{`Min temperature: `+weather.main.tempMin.toString()+`°C`}"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtMinTemperature"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:text="@{weather.name}"
+                android:textColor="#3F51B5"
+                android:textSize="36sp" />
+
+            <ImageButton
+                android:id="@+id/imgViewSavePlace"
+                android:scaleType="fitXY"
+                android:background="@android:color/transparent"
+                android:layout_margin="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/ic_save_place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:contentDescription="@string/todo" />
+
+        </RelativeLayout>
+</layout>

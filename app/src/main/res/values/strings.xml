@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">WeatherApplication</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="xem_theo_dia_diem">Xem theo địa điểm</string>
+    <string name="quan_ly_dia_diem">Quản lý địa điểm</string>
+    <string name="dang_nhap">Đăng nhập</string>
+    <string name="todo">TODO</string>
+    <string name="retype_password">Retype Password</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="i_have_an_account_login_now">I have an account. Login now</string>
+    <string name="register">Register</string>
+    <string name="register_a_new_account">Register a new account</string>
+    <string name="login">Login</string>
+    <string name="do_you_want_to_delete_this_place">Do you want to delete this place?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="logout">Logout</string>
+    <string name="hi">Hi!</string>
+    <string name="guest">Guest</string>
+    <string name="no_email">No Email</string>
+    <string name="my_account">My Account</string>
+    <string name="see_weather_by_place">See Weather By Place</string>
+    <string name="place_management">Place Management</string>
+    <string name="city_name">city_name</string>
+    <string name="city_lat">city_lat</string>
+    <string name="city_lon">city_lon</string>
+</resources>
