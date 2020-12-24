@@ -1,6 +1,7 @@
 # WeatherApplication
 WeatherApplication
 ## 1. Functions
+  - Register
   - Login
   - Logout
   - Show user profile
